@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place Your Bet</title>
+</head>
+<body>
+    <h1>Place Your Bet</h1>
+    <form method="post" action="{% url 'play' %}">
+        {% csrf_token %}
+        <label for="bet_amount">Enter Bet Amount:</label>
+        <input type="number" id="bet_amount" name="bet_amount" min="1" max="{{ wallet }}" required>
+        <button type="submit">Place Bet</button>
+    </form>
+    {% if error_message %}
+        <p>{{ error_message }}</p>
+    {% endif %}
+    {% if chips %}
+        <h2>Your Bet:</h2>
+        <ul>
+            {% for coin, count in chips.items %}
+                <li>{{ count }} x {{ coin }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</body>
+</html>
+

@@ -1,0 +1,10 @@
+<h1>LEADERBOARD</h1>
+
+<h1>Top 5 Players</h1>
+    <ul>
+        {% for player in top_players %}
+            <li>{{ player.username }} - Wins: {{ player.wins }}</li>
+        {% endfor %}
+    </ul>
+
+    <button><a href="https://webappdevcasino.pythonanywhere.com/"> Home </a></button>

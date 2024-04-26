@@ -1,0 +1,24 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Lobby</title>
+</head>
+<body>
+    <h1>Game Lobby</h1>
+    <h2>Available Rooms:</h2>
+    <ul>
+        {% for room in available_rooms %}
+        <li>{{ room.name }} - <a href="{% url 'join_room' room.id %}">Join</a></li>
+        {% endfor %}
+    </ul>
+    <h2>Create a New Room:</h2>
+    <form method="post" action="{% url 'create_room' %}">
+        {% csrf_token %}
+        <label for="room_name">Room Name:</label>
+        <input type="text" id="room_name" name="room_name">
+        <button type="submit">Create Room</button>
+    </form>
+</body>
+</html>
