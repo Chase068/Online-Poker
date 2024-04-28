@@ -1,0 +1,7 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "remote.SSH.remotePlatform": {
+        "ssh.pythonanywhere.com": "linux"
+    },
+    "editor.accessibilitySupport": "off"
+}

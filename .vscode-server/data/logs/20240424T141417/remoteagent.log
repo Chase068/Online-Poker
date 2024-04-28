@@ -1,0 +1,30 @@
+2024-04-24 14:14:17.814 [info] Extension host agent started.
+2024-04-24 14:14:17.951 [error] [/home/webappdevcasino/.vscode-server/extensions/danielpinto8zz6.c-cpp-compile-run-1.0.58]: Extension is not compatible with Code 1.74.2. Extension requires: ^1.85.0.
+2024-04-24 14:14:17.952 [error] [/home/webappdevcasino/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.17]: Extension is not compatible with Code 1.74.2. Extension requires: ^1.80.0.
+2024-04-24 14:14:17.968 [error] [/home/webappdevcasino/.vscode-server/extensions/danielpinto8zz6.c-cpp-compile-run-1.0.58]: Extension is not compatible with Code 1.74.2. Extension requires: ^1.85.0.
+2024-04-24 14:14:17.970 [error] [/home/webappdevcasino/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.17]: Extension is not compatible with Code 1.74.2. Extension requires: ^1.80.0.
+2024-04-24 14:14:18.011 [info] [127.0.0.1][93e1a66d][ManagementConnection] New connection established.
+2024-04-24 14:14:18.052 [info] [127.0.0.1][7705134c][ExtensionHostConnection] New connection established.
+2024-04-24 14:14:18.199 [error] [/home/webappdevcasino/.vscode-server/extensions/danielpinto8zz6.c-cpp-compile-run-1.0.58]: Extension is not compatible with Code 1.74.2. Extension requires: ^1.85.0.
+2024-04-24 14:14:18.200 [error] [/home/webappdevcasino/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.17]: Extension is not compatible with Code 1.74.2. Extension requires: ^1.80.0.
+2024-04-24 14:14:18.208 [error] [/home/webappdevcasino/.vscode-server/extensions/danielpinto8zz6.c-cpp-compile-run-1.0.58]: Extension is not compatible with Code 1.74.2. Extension requires: ^1.85.0.
+2024-04-24 14:14:18.209 [error] [/home/webappdevcasino/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.17]: Extension is not compatible with Code 1.74.2. Extension requires: ^1.80.0.
+2024-04-24 14:14:18.210 [error] [/home/webappdevcasino/.vscode-server/extensions/danielpinto8zz6.c-cpp-compile-run-1.0.58]: Extension is not compatible with Code 1.74.2. Extension requires: ^1.85.0.
+2024-04-24 14:14:18.214 [error] [/home/webappdevcasino/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.17]: Extension is not compatible with Code 1.74.2. Extension requires: ^1.80.0.
+2024-04-24 14:14:18.251 [error] [/home/webappdevcasino/.vscode-server/extensions/danielpinto8zz6.c-cpp-compile-run-1.0.58]: Extension is not compatible with Code 1.74.2. Extension requires: ^1.85.0.
+2024-04-24 14:14:18.257 [error] [/home/webappdevcasino/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.17]: Extension is not compatible with Code 1.74.2. Extension requires: ^1.80.0.
+2024-04-24 14:14:18.489 [info] [127.0.0.1][7705134c][ExtensionHostConnection] <2073218> Launched Extension Host Process.
+2024-04-24 14:14:18.944 [error] [/home/webappdevcasino/.vscode-server/extensions/danielpinto8zz6.c-cpp-compile-run-1.0.58]: Extension is not compatible with Code 1.74.2. Extension requires: ^1.85.0.
+2024-04-24 14:14:18.945 [error] [/home/webappdevcasino/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.17]: Extension is not compatible with Code 1.74.2. Extension requires: ^1.80.0.
+2024-04-24 14:14:18.946 [error] [/home/webappdevcasino/.vscode-server/extensions/danielpinto8zz6.c-cpp-compile-run-1.0.58]: Extension is not compatible with Code 1.74.2. Extension requires: ^1.85.0.
+2024-04-24 14:14:18.947 [error] [/home/webappdevcasino/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.17]: Extension is not compatible with Code 1.74.2. Extension requires: ^1.80.0.
+2024-04-24 14:14:18.948 [error] [/home/webappdevcasino/.vscode-server/extensions/danielpinto8zz6.c-cpp-compile-run-1.0.58]: Extension is not compatible with Code 1.74.2. Extension requires: ^1.85.0.
+2024-04-24 14:14:18.949 [error] [/home/webappdevcasino/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.17]: Extension is not compatible with Code 1.74.2. Extension requires: ^1.80.0.
+2024-04-24 14:14:18.949 [error] [/home/webappdevcasino/.vscode-server/extensions/danielpinto8zz6.c-cpp-compile-run-1.0.58]: Extension is not compatible with Code 1.74.2. Extension requires: ^1.85.0.
+2024-04-24 14:14:18.950 [error] [/home/webappdevcasino/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.17]: Extension is not compatible with Code 1.74.2. Extension requires: ^1.80.0.
+2024-04-24 14:14:19.121 [error] [/home/webappdevcasino/.vscode-server/extensions/danielpinto8zz6.c-cpp-compile-run-1.0.58]: Extension is not compatible with Code 1.74.2. Extension requires: ^1.85.0.
+2024-04-24 14:14:19.121 [error] [/home/webappdevcasino/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.17]: Extension is not compatible with Code 1.74.2. Extension requires: ^1.80.0.
+2024-04-24 14:14:30.226 [info] [127.0.0.1][93e1a66d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-04-24 14:14:30.264 [info] [127.0.0.1][7705134c][ExtensionHostConnection] <2073218> Extension Host Process exited with code: 0, signal: null.
+2024-04-24 14:14:30.264 [info] Last EH closed, waiting before shutting down
+2024-04-24 14:19:30.265 [info] Last EH closed, shutting down

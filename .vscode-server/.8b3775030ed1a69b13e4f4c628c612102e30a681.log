@@ -1,0 +1,323 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:46687 (IPv4)
+Extension host agent listening on 46687
+
+[14:10:45] 
+
+
+
+
+[14:10:45] Extension host agent started.
+[14:10:45] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:10:45] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:10:45] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:10:45] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:10:45] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:10:45] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:10:45] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:10:45] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:10:45] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:10:45] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:10:45] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:10:45] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:10:45] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:10:45] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:10:45] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:10:45] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:10:45] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:10:45] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:10:45] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:10:45] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:10:45] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:10:45] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:10:45] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:10:45] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:10:45] [127.0.0.1][8c256ea6][ManagementConnection] New connection established.
+[14:10:47] [127.0.0.1][4c1a7d07][ExtensionHostConnection] New connection established.
+[14:10:47] [127.0.0.1][4c1a7d07][ExtensionHostConnection] <2266863> Launched Extension Host Process.
+/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node[2267055]: ../src/node_platform.cc:68:std::unique_ptr<long unsigned int> node::WorkerThreadsTaskRunner::DelayedTaskScheduler::Start(): Assertion `(0) == (uv_thread_create(t.get(), start_thread, this))' failed.
+ 1: 0xb7d990 node::Abort() [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 2: 0xb7da0e  [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 3: 0xbeb98e  [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 4: 0xbeba71 node::NodePlatform::NodePlatform(int, v8::TracingController*, v8::PageAllocator*) [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 5: 0xb39b5f node::InitializeOncePerProcess(std::vector<std::string, std::allocator<std::string> > const&, node::ProcessFlags::Flags) [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 6: 0xb3a2b3 node::Start(int, char**) [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 7: 0x7f9bb2da5083 __libc_start_main [/lib/x86_64-linux-gnu/libc.so.6]
+ 8: 0xab681c  [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+IPC "File Watcher" crashed with exit code null and signal SIGABRT
+[14:10:54] [File Watcher (universal)] restarting watcher after error: terminated by itself with code null, signal: SIGABRT
+/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node[2267060]: ../src/node_platform.cc:68:std::unique_ptr<long unsigned int> node::WorkerThreadsTaskRunner::DelayedTaskScheduler::Start(): Assertion `(0) == (uv_thread_create(t.get(), start_thread, this))' failed.
+ 1: 0xb7d990 node::Abort() [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 2: 0xb7da0e  [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 3: 0xbeb98e  [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 4: 0xbeba71 node::NodePlatform::NodePlatform(int, v8::TracingController*, v8::PageAllocator*) [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 5: 0xb39b5f node::InitializeOncePerProcess(std::vector<std::string, std::allocator<std::string> > const&, node::ProcessFlags::Flags) [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 6: 0xb3a2b3 node::Start(int, char**) [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 7: 0x7fbd184e7083 __libc_start_main [/lib/x86_64-linux-gnu/libc.so.6]
+ 8: 0xab681c  [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+IPC "File Watcher" crashed with exit code null and signal SIGABRT
+[14:10:54] [File Watcher (universal)] restarting watcher after error: terminated by itself with code null, signal: SIGABRT
+/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node[2267062]: ../src/node_platform.cc:68:std::unique_ptr<long unsigned int> node::WorkerThreadsTaskRunner::DelayedTaskScheduler::Start(): Assertion `(0) == (uv_thread_create(t.get(), start_thread, this))' failed.
+ 1: 0xb7d990 node::Abort() [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 2: 0xb7da0e  [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 3: 0xbeb98e  [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 4: 0xbeba71 node::NodePlatform::NodePlatform(int, v8::TracingController*, v8::PageAllocator*) [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 5: 0xb39b5f node::InitializeOncePerProcess(std::vector<std::string, std::allocator<std::string> > const&, node::ProcessFlags::Flags) [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 6: 0xb3a2b3 node::Start(int, char**) [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 7: 0x7f9eb6278083 __libc_start_main [/lib/x86_64-linux-gnu/libc.so.6]
+ 8: 0xab681c  [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+IPC "File Watcher" crashed with exit code null and signal SIGABRT
+[14:10:54] [File Watcher (universal)] restarting watcher after error: terminated by itself with code null, signal: SIGABRT
+/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node[2267063]: ../src/node_platform.cc:68:std::unique_ptr<long unsigned int> node::WorkerThreadsTaskRunner::DelayedTaskScheduler::Start(): Assertion `(0) == (uv_thread_create(t.get(), start_thread, this))' failed.
+ 1: 0xb7d990 node::Abort() [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 2: 0xb7da0e  [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 3: 0xbeb98e  [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 4: 0xbeba71 node::NodePlatform::NodePlatform(int, v8::TracingController*, v8::PageAllocator*) [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 5: 0xb39b5f node::InitializeOncePerProcess(std::vector<std::string, std::allocator<std::string> > const&, node::ProcessFlags::Flags) [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 6: 0xb3a2b3 node::Start(int, char**) [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 7: 0x7fef06345083 __libc_start_main [/lib/x86_64-linux-gnu/libc.so.6]
+ 8: 0xab681c  [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+IPC "File Watcher" crashed with exit code null and signal SIGABRT
+[14:10:54] [File Watcher (universal)] restarting watcher after error: terminated by itself with code null, signal: SIGABRT
+/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node[2267066]: ../src/node_platform.cc:68:std::unique_ptr<long unsigned int> node::WorkerThreadsTaskRunner::DelayedTaskScheduler::Start(): Assertion `(0) == (uv_thread_create(t.get(), start_thread, this))' failed.
+ 1: 0xb7d990 node::Abort() [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 2: 0xb7da0e  [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 3: 0xbeb98e  [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 4: 0xbeba71 node::NodePlatform::NodePlatform(int, v8::TracingController*, v8::PageAllocator*) [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 5: 0xb39b5f node::InitializeOncePerProcess(std::vector<std::string, std::allocator<std::string> > const&, node::ProcessFlags::Flags) [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 6: 0xb3a2b3 node::Start(int, char**) [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 7: 0x7f611454f083 __libc_start_main [/lib/x86_64-linux-gnu/libc.so.6]
+ 8: 0xab681c  [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+IPC "File Watcher" crashed with exit code null and signal SIGABRT
+[14:10:54] [File Watcher (universal)] restarting watcher after error: terminated by itself with code null, signal: SIGABRT
+/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node[2267068]: ../src/node_platform.cc:68:std::unique_ptr<long unsigned int> node::WorkerThreadsTaskRunner::DelayedTaskScheduler::Start(): Assertion `(0) == (uv_thread_create(t.get(), start_thread, this))' failed.
+ 1: 0xb7d990 node::Abort() [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 2: 0xb7da0e  [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 3: 0xbeb98e  [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 4: 0xbeba71 node::NodePlatform::NodePlatform(int, v8::TracingController*, v8::PageAllocator*) [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 5: 0xb39b5f node::InitializeOncePerProcess(std::vector<std::string, std::allocator<std::string> > const&, node::ProcessFlags::Flags) [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 6: 0xb3a2b3 node::Start(int, char**) [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 7: 0x7f6fe33ae083 __libc_start_main [/lib/x86_64-linux-gnu/libc.so.6]
+ 8: 0xab681c  [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+IPC "File Watcher" crashed with exit code null and signal SIGABRT
+[14:10:54] [File Watcher (universal)] gave up attempting to restart watcher after error: terminated by itself with code null, signal: SIGABRT
+[14:11:09] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:09] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:09] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:09] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:09] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:09] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:09] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:09] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:09] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:09] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:09] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:09] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:14] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:14] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:14] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:14] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:14] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:14] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:14] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:14] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:14] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:14] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:14] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:14] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] Deleted uninstalled extension from disk ms-python.vscode-pylance /home/webappdevcasino/.vscode-server/extensions/ms-python.vscode-pylance-2023.5.30
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:16] Deleted uninstalled extension from disk ms-python.python /home/webappdevcasino/.vscode-server/extensions/ms-python.python-2022.20.2
+[14:11:17] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:17] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:17] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:17] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:17] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:17] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:17] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:17] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:17] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:17] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:17] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:17] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node[2267605]: ../src/node_platform.cc:68:std::unique_ptr<long unsigned int> node::WorkerThreadsTaskRunner::DelayedTaskScheduler::Start(): Assertion `(0) == (uv_thread_create(t.get(), start_thread, this))' failed.
+ 1: 0xb7d990 node::Abort() [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 2: 0xb7da0e  [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 3: 0xbeb98e  [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 4: 0xbeba71 node::NodePlatform::NodePlatform(int, v8::TracingController*, v8::PageAllocator*) [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 5: 0xb39b5f node::InitializeOncePerProcess(std::vector<std::string, std::allocator<std::string> > const&, node::ProcessFlags::Flags) [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 6: 0xb3a2b3 node::Start(int, char**) [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+ 7: 0x7fada17c4083 __libc_start_main [/lib/x86_64-linux-gnu/libc.so.6]
+ 8: 0xab681c  [/home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node]
+IPC "Pty Host" crashed with exit code null and signal SIGABRT
+[14:11:17] ptyHost terminated unexpectedly with code null
+IPC "Pty Host" errored with Error: spawn /home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node EAGAIN
+[14:11:17] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:17] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:17] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:17] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:17] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:17] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:17] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:17] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:17] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:17] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:17] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:17] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:18] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:19] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:19] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:19] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:19] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:19] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:19] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:19] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:19] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:19] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:19] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:19] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:19] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:11:22] No ptyHost response to createProcess after 5 seconds
+[14:11:22] No ptyHost response to createProcess after 5 seconds
+[14:11:22] No ptyHost response to createProcess after 5 seconds
+[14:11:22] No ptyHost response to createProcess after 5 seconds
+New EH opened, aborting shutdown
+[14:15:45] New EH opened, aborting shutdown
+[14:16:17] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:16:17] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:16:17] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:16:17] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:16:17] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:16:17] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:16:17] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:16:17] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:16:17] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:16:17] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:16:17] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:16:17] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+[14:16:48] [127.0.0.1][4c1a7d07][ExtensionHostConnection] The client has reconnected.
+[14:44:55] Deleted uninstalled extension from disk ms-toolsai.jupyter /home/webappdevcasino/.vscode-server/extensions/ms-toolsai.jupyter-2022.11.1003412109

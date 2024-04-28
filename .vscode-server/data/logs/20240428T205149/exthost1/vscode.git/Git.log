@@ -1,0 +1,41 @@
+2024-04-28 20:51:52.635 [info] Log level: Info
+2024-04-28 20:51:52.635 [info] Validating found git in: "git"
+2024-04-28 20:51:52.635 [info] Using git "2.25.1" from "git"
+2024-04-28 20:51:52.635 [info] > git rev-parse --show-toplevel [2ms]
+2024-04-28 20:51:52.635 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-04-28 20:51:52.635 [info] > git rev-parse --show-toplevel [2ms]
+2024-04-28 20:51:52.635 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-04-28 20:51:52.635 [info] > git rev-parse --show-toplevel [2ms]
+2024-04-28 20:51:52.635 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-04-28 20:51:52.635 [info] > git rev-parse --show-toplevel [1ms]
+2024-04-28 20:51:52.635 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-04-28 20:51:52.635 [info] > git rev-parse --show-toplevel [2ms]
+2024-04-28 20:51:52.635 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-04-28 20:51:52.635 [info] > git rev-parse --show-toplevel [1ms]
+2024-04-28 20:51:52.635 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-04-28 20:51:52.635 [info] > git rev-parse --show-toplevel [1ms]
+2024-04-28 20:51:52.635 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-04-28 20:51:52.635 [info] > git rev-parse --show-toplevel [1ms]
+2024-04-28 20:51:52.635 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-04-28 20:51:52.635 [info] > git rev-parse --show-toplevel [8ms]
+2024-04-28 20:51:52.635 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-04-28 20:51:52.635 [info] Open repository: /home/webappdevcasino/dj4e-samples
+2024-04-28 20:51:52.635 [info] > git config --get commit.template [8ms]
+2024-04-28 20:51:52.635 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [22ms]
+2024-04-28 20:51:52.635 [warning] ENOENT: no such file or directory, open '/home/webappdevcasino/dj4e-samples/.git/refs/remotes/origin/main'
+2024-04-28 20:51:52.635 [info] > git rev-parse refs/remotes/origin/main [7ms]
+2024-04-28 20:51:53.008 [info] > git status -z -uall [391ms]
+2024-04-28 20:51:53.041 [info] > git config --get commit.template [12ms]
+2024-04-28 20:51:53.050 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-04-28 20:51:53.057 [warning] ENOENT: no such file or directory, open '/home/webappdevcasino/dj4e-samples/.git/refs/remotes/origin/main'
+2024-04-28 20:51:53.070 [info] > git rev-parse refs/remotes/origin/main [13ms]
+2024-04-28 20:51:53.152 [info] > git status -z -uall [74ms]
+2024-04-28 20:51:53.198 [info] > git check-ignore -v -z --stdin [8ms]

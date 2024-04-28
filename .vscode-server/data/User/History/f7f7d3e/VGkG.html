@@ -1,0 +1,65 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack Game</title>
+    <style>
+        .card {
+            background-color: white;
+            width: 100px;
+            height: 150px;
+            border: 1px solid black;
+            margin: 10px;
+            display: inline-block;
+            padding: 5px;
+        }
+        .controls {
+            margin-top: 20px;
+        }
+        .message {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body style=background-color:rgb(19,160,54);>
+    <h1>Blackjack Game</h1>
+
+    <h2>Player</h2>
+    <div>
+        {% for card in player_hand %}
+            <div class="card">{{ card }}</div>
+        {% endfor %}
+    </div>
+
+    <h2>Dealer</h2>
+    <div>
+        {% for card in dealer_hand %}
+            <div class="card">{{ card }}</div>
+        {% endfor %}
+    </div>
+
+    <div class="message">{{ message }}</div>
+
+    <!-- Display game controls only if the game is in progress -->
+    {% if not message %}
+        <div class="controls">
+            <form method="post">
+                {% csrf_token %}
+                <button type="submit" name="action" value="hit">Hit</button>
+                <button type="submit" name="action" value="stand">Stand</button>
+            </form>
+        </div>
+    {% else %}
+        <!-- Display a button to start a new game -->
+        <div class="controls">
+            <form method="post">
+                {% csrf_token %}
+                <input type="submit" name="new_game" value="Play New Game">
+            </form>
+            <a href="{% url 'index' %}">Go to Home Page</a>
+        </div>
+    {% endif %}
+</body>
+</html>

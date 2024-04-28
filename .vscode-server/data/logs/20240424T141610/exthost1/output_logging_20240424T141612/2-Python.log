@@ -1,0 +1,28 @@
+Experiment 'pythonaacf' is active
+Experiment 'pythonRecommendTensorboardExt' is active
+Experiment 'pythonREPLSmartSend' is active
+Experiment 'pythonSurveyNotificationcf' is active
+Experiment 'pythonTerminalEnvVarActivation' is active
+Experiment 'pythonTestAdapter' is active
+LSP Notebooks experiment is enabled
+LSP Notebooks interactive window support is enabled
+> conda info --json
+> /opt/conda/bin/conda info --json
+> python -c "import sys;print(sys.executable)"
+> ~/.virtualenvs/django50/bin/python ~/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/interpreterInfo.py
+> /bin/python2 ~/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/interpreterInfo.py
+> /bin/python3 ~/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/interpreterInfo.py
+> /bin/python3.10 ~/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/interpreterInfo.py
+> /bin/python3.6 ~/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/interpreterInfo.py
+> /bin/python3.7 ~/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/interpreterInfo.py
+> . ~/.virtualenvs/django50/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/printEnvVariables.py
+> /bin/python3.9 ~/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/interpreterInfo.py
+> /usr/bin/python2 ~/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/interpreterInfo.py
+> /usr/bin/python3 ~/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/interpreterInfo.py
+> /opt/conda/bin/python ~/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/interpreterInfo.py
+Python interpreter path: /bin/python3.10
+> /usr/local/bin/python3.10 ~/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/interpreterInfo.py
+> /usr/local/bin/python3.7 ~/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/interpreterInfo.py
+> /usr/local/bin/python3.9 ~/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/interpreterInfo.py
+> /usr/local/bin/python3.8 ~/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/interpreterInfo.py
+Starting Pylance language server.

@@ -1,0 +1,10 @@
+{
+    "window.zoomLevel": 1,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "security.workspace.trust.untrustedFiles": "open"
+}

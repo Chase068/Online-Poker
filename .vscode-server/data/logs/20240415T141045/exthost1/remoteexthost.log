@@ -1,0 +1,90 @@
+2024-04-15 14:11:17.917 [info] Extension host with pid 2266863 started
+2024-04-15 14:11:17.937 [info] Lock '/home/webappdevcasino/.vscode-server/data/User/workspaceStorage/b350b47423a0d6d16bdc28fae4fec9b8/vscode.lock': Lock acquired.
+2024-04-15 14:11:17.990 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-04-15 14:11:17.998 [info] ExtensionService#_doActivateExtension batisteo.vscode-django, startup: false, activationEvent: 'onLanguage:python'
+2024-04-15 14:11:17.999 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-04-15 14:11:17.999 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.isort
+2024-04-15 14:11:18.647 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2024-04-15 14:11:18.919 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2024-04-15 14:11:18.920 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2024-04-15 14:11:19.514 [info] ExtensionService#_doActivateExtension ms-python.isort, startup: false, activationEvent: 'onLanguage:python'
+2024-04-15 14:11:19.514 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2024-04-15 14:11:20.547 [error] Error: spawn /home/webappdevcasino/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@vscode/ripgrep/bin/rg EAGAIN
+    at T (vscode-file://vscode-app/private/var/folders/8w/7jb48gfs7310_rb8km8tvq380000gn/T/AppTranslocation/3CF7F09D-18A0-4D7B-BCA0-A99336BA1559/d/Visual%20Studio%20Code-2.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1861:5893)
+    at vscode-file://vscode-app/private/var/folders/8w/7jb48gfs7310_rb8km8tvq380000gn/T/AppTranslocation/3CF7F09D-18A0-4D7B-BCA0-A99336BA1559/d/Visual%20Studio%20Code-2.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1869:4355
+    at async vscode-file://vscode-app/private/var/folders/8w/7jb48gfs7310_rb8km8tvq380000gn/T/AppTranslocation/3CF7F09D-18A0-4D7B-BCA0-A99336BA1559/d/Visual%20Studio%20Code-2.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1869:2925
+2024-04-15 14:11:20.547 [info] Eager extensions activated
+2024-04-15 14:11:20.548 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-15 14:11:20.548 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-15 14:11:22.424 [error] Error: Pending response rejected since connection got disposed
+	at Object.dispose (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2312805)
+	at Object.dispose (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2367704)
+	at _.handleConnectionClosed (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2368110)
+	at _.handleConnectionClosed (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2529396)
+	at /home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2367853
+	at o.invoke (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2314531)
+	at s.fire (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2315296)
+	at te (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2300928)
+	at o.invoke (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2314531)
+	at s.fire (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2315296)
+	at d.fireClose (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2323156)
+	at ChildProcess.<anonymous> (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2335508)
+	at ChildProcess.emit (node:events:525:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:322:12)
+2024-04-15 14:11:22.425 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at _.shutdown (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2363026)
+	at _.stop (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2362607)
+	at _.stop (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2528995)
+	at _.doInitialize (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2362430)
+	at async _.start (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2358996)
+	at async Object.start (/home/webappdevcasino/.vscode-server/extensions/ms-python.vscode-pylance-2024.3.2/dist/extension.bundle.js:1:147917)
+	at async _0x24f9f5.<computed>._startClient (/home/webappdevcasino/.vscode-server/extensions/ms-python.vscode-pylance-2024.3.2/dist/extension.bundle.js:1:91043)
+	at async _0x24f9f5.<computed>._createNewRequest (/home/webappdevcasino/.vscode-server/extensions/ms-python.vscode-pylance-2024.3.2/dist/extension.bundle.js:1:90498)
+	at async _0x24f9f5.<computed>._enqueueRequestAndWaitForRun (/home/webappdevcasino/.vscode-server/extensions/ms-python.vscode-pylance-2024.3.2/dist/extension.bundle.js:1:89715)
+	at async _0x24f9f5.<computed>.startClient (/home/webappdevcasino/.vscode-server/extensions/ms-python.vscode-pylance-2024.3.2/dist/extension.bundle.js:1:89048)
+	at async h.start (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:36917)
+2024-04-15 14:11:22.434 [error] Error: Client is not running and can't be stopped. It's current state is: startFailed
+	at _.shutdown (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2363026)
+	at _.stop (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2362607)
+	at _.stop (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2528995)
+	at _.doInitialize (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2362430)
+	at async _.start (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2358996)
+2024-04-15 14:11:22.434 [error] Error: Pending response rejected since connection got disposed
+	at Object.dispose (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2312805)
+	at Object.dispose (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2367704)
+	at _.handleConnectionClosed (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2368110)
+	at _.handleConnectionClosed (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2529396)
+	at /home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2367853
+	at o.invoke (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2314531)
+	at s.fire (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2315296)
+	at te (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2300928)
+	at o.invoke (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2314531)
+	at s.fire (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2315296)
+	at d.fireClose (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2323156)
+	at ChildProcess.<anonymous> (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2335508)
+	at ChildProcess.emit (node:events:525:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:322:12)
+2024-04-15 14:11:22.439 [error] Error: Client is not running and can't be stopped. It's current state is: startFailed
+	at _.shutdown (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2363026)
+	at _.stop (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2362607)
+	at _.stop (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2528995)
+	at _.doInitialize (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2362430)
+	at async _.start (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2358996)
+2024-04-15 14:11:22.442 [error] Error: Client is not running and can't be stopped. It's current state is: startFailed
+	at _.shutdown (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2363026)
+	at _.stop (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2362607)
+	at _.stop (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2528995)
+	at _.doInitialize (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2362430)
+	at async _.start (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2358996)
+2024-04-15 14:11:22.448 [error] Error: Client is not running and can't be stopped. It's current state is: startFailed
+	at _.shutdown (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2363026)
+	at _.stop (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2362607)
+	at _.stop (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2528995)
+	at _.doInitialize (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2362430)
+	at async _.start (/home/webappdevcasino/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2358996)

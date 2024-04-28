@@ -1,0 +1,14 @@
+2024-04-28 20:51:50.724 [info] Extension host with pid 3396312 started
+2024-04-28 20:51:50.724 [error] Error: EEXIST: file already exists, open '/home/webappdevcasino/.vscode-server/data/User/workspaceStorage/b350b47423a0d6d16bdc28fae4fec9b8/vscode.lock'
+2024-04-28 20:51:50.731 [info] Lock '/home/webappdevcasino/.vscode-server/data/User/workspaceStorage/b350b47423a0d6d16bdc28fae4fec9b8/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-04-28 20:51:50.732 [info] Lock '/home/webappdevcasino/.vscode-server/data/User/workspaceStorage/b350b47423a0d6d16bdc28fae4fec9b8/vscode.lock': The pid 2467174 appears to be gone.
+2024-04-28 20:51:50.732 [info] Lock '/home/webappdevcasino/.vscode-server/data/User/workspaceStorage/b350b47423a0d6d16bdc28fae4fec9b8/vscode.lock': Deleting a stale lock.
+2024-04-28 20:51:50.742 [info] Lock '/home/webappdevcasino/.vscode-server/data/User/workspaceStorage/b350b47423a0d6d16bdc28fae4fec9b8/vscode.lock': Lock acquired.
+2024-04-28 20:51:50.864 [info] ExtensionService#_doActivateExtension batisteo.vscode-django, startup: false, activationEvent: 'onLanguage:python'
+2024-04-28 20:51:50.868 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-04-28 20:51:51.598 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-04-28 20:51:52.055 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-04-28 20:51:52.056 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-28 20:51:53.360 [info] Eager extensions activated
+2024-04-28 20:51:53.360 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-28 20:51:53.361 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'

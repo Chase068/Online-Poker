@@ -1,0 +1,11 @@
+{
+    "workbench.colorTheme": "SynthWave '84",
+    "remote.SSH.remotePlatform": {
+        "147.97.156.212": "linux",
+        "147.97.156.206": "linux",
+        "ssh.pythonanywhere.com": "linux"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "git.autofetch": true,
+    "workbench.iconTheme": "vs-minimal"
+}
